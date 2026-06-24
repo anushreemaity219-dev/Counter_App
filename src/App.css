@@ -1,0 +1,64 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, lch(57.44% 63.7 298.9 / 0.984), #ab64f1);
+}
+
+/* Center container */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100vh;
+}
+
+
+.card {
+  background: rgb(236, 234, 123);
+  padding: 20px;
+  border-radius: 12px;
+  width: 220px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(18, 27, 7, 0.2);
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+
+.count {
+  font-size: 40px;
+  margin: 15px 0;
+  font-weight: bold;
+  color: #df1212;
+}
+
+/* Buttons */
+.btn-group button {
+  margin: 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  background: #1e3fd4;
+  color: rgb(242, 244, 247);
+  transition: 0.2s;
+}
+
+.btn-group button:hover {
+  background: #57025f;
+}
+
+/* Reset button special */
+.reset {
+  background: #e53e3e !important;
+}
+
+.reset:hover {
+  background: #4d0202 !important;
+}
